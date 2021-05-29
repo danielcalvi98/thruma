@@ -1,0 +1,17 @@
+.detail-container {
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-container > h1 {
+
+}
+
+.detail-container > img {
+       height: auto;
+       width: 100px;
+}
