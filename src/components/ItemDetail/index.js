@@ -8,7 +8,12 @@ function ItemDetail() {
         <div className="detail-container" >
             <h1> {item.name} </h1>
             <img src={ item.img } alt="img" />
+            <h2>Innihaldsupplýsingar</h2>
             <p> { item.description } </p>
+            <p>Protein: {item.protein}</p>
+            <p>Fat: {item.fat}</p>
+            <p>Carbs: {item.carbs}</p>
+            <p>Kcal: {item.calories}</p>
 
         </div>
     )

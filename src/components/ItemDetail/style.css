@@ -4,14 +4,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
 }
 
 .detail-container > h1 {
+    align-self: center;
+}
 
+.detail-container > h2 {
+    text-align: left;
+    margin-left: 25%;
 }
 
 .detail-container > img {
        height: auto;
        width: 100px;
+       align-self: center;
+}
+
+.detail-container > p {
+    width: 50%;
+    align-self: center;
 }

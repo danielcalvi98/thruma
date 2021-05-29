@@ -4,15 +4,17 @@ import './style.css'
 function ImageSlideshow() {
     const[current, setCurrent] = useState(0)
     const BackgroundImg=[
-        "https://resi.ze-robot.com/dl/ul/ultraviolet-4k-wallpaper-2560%C3%971600.jpg",
-        "https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg",
-        "https://wallpaperaccess.com/full/508751.jpg"
+
+        "https://miro.medium.com/max/2400/0*cRxG_Kyg0GscWohm.jpg",
+        "https://wallup.net/wp-content/uploads/2016/03/01/300056-Zyzz-bodybuilding-Mirin-Zyzz_Veni_Vidi_Vici.jpg",
+        "https://wallpaperaccess.com/full/3702281.jpg"
+
     ];
 
     useEffect(() => {
         const interval = setInterval(() => {
             changeImage();
-        }, 3000);
+        }, 10000);
         return () => clearInterval(interval)
     }, [current])
 
