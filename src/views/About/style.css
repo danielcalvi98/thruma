@@ -1,6 +1,6 @@
 .about-container {
-    height: 100vh;
-    padding-top: 100px;
+    min-height: 100vh;
+    margin: 100px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -18,4 +18,10 @@
 .about-container > p {
     width: 50%;
     align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container > p{
+        width: 75%;
+    } 
 }

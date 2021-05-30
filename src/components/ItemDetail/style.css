@@ -1,7 +1,6 @@
 .detail-container {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 100px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,5 +30,26 @@
 .dropdown{
     text-align: left;
     margin-left: 25%;
-    color: aqua;
 }
+
+@media only screen and (max-width: 600px) {
+    .detail-container {
+
+        align-items: center;
+    }
+
+    .detail-container > p {
+        width: 75%;
+        align-self: center;
+    }
+    .dropdown{
+        text-align: left;
+        margin-left: 0%;
+    }
+
+    .detail-container > h2 {
+        text-align: left;
+        margin-left: 0%;
+    }
+    
+  }

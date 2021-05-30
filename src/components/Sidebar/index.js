@@ -7,7 +7,7 @@ function Sidebar({ show }) {
         <div className="sidebar-container" >
             
             <span onClick={ show } > <NavLink className="sidebar-link" to="/" style={{textDecoration: 'none'}}>Home</NavLink></span>
-            <span onClick={ show } ><NavLink className="sidebar-link" to="/bars" style={{textDecoration: 'none'}}>Bars</NavLink></span>
+            <span onClick={ show } ><NavLink className="sidebar-link" to="/bars/is/1" style={{textDecoration: 'none'}}>Bars</NavLink></span>
             <span onClick={ show } ><NavLink className="sidebar-link" to="/about" style={{textDecoration: 'none'}} >About</NavLink></span>
         </div>
     )
