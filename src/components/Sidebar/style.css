@@ -16,6 +16,12 @@
     margin: 20px;
 }
 
+.sidebar-container > span {
+    
+    font-size: 20pt;
+    margin: 20px;
+}
+
 .sidebar-link {
     color:rgba(255, 255, 255, 0.441);
 }

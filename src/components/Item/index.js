@@ -31,7 +31,7 @@ function Item({ item }) {
         <>
         <div className="item-container" >
             <h1>{item.name}</h1>
-            <Link to={"/bars/"+ item.id}>
+            <Link to={"/bars/is/"+ item.id}>
                 <img className="item-img" src={ item.img } alt="img" />
             </Link>
         </div>

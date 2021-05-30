@@ -1,6 +1,7 @@
 .detail-container {
     height: 100vh;
-    padding: 100px;
+    padding-top: 100px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,4 +26,10 @@
 .detail-container > p {
     width: 50%;
     align-self: center;
+}
+
+.dropdown{
+    text-align: left;
+    margin-left: 25%;
+    color: aqua;
 }

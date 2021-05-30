@@ -6,7 +6,7 @@ function ImageSlideshow() {
     const BackgroundImg=[
 
         "https://miro.medium.com/max/2400/0*cRxG_Kyg0GscWohm.jpg",
-        "https://wallup.net/wp-content/uploads/2016/03/01/300056-Zyzz-bodybuilding-Mirin-Zyzz_Veni_Vidi_Vici.jpg",
+        "/images/zyzz.png",
         "https://wallpaperaccess.com/full/3702281.jpg"
 
     ];

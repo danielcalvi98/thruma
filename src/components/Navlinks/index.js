@@ -31,7 +31,7 @@ function Navlinks() {
                 </ul>
             </nav>
             {sideBar &&
-                <Sidebar />
+                <Sidebar show={ showSideBar } />
             }
         </>
     )
