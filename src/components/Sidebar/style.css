@@ -1,10 +1,26 @@
 .sidebar-container  {
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    top: 0;
+    position: fixed;
     z-index: 100;
-    background-color:rgb(0, 94, 148);
-    display: grid;
+    background-color:rgb(26, 28, 30);
+    display: none;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.sidebar-link {
+    font-size: 20pt;
+    margin: 20px;
+}
+
+.sidebar-link {
+    color:rgba(255, 255, 255, 0.441);
+}
+
+.sidebar-link:hover {
+    color:rgb(255, 251, 251) ;
+    cursor: pointer;
+}
