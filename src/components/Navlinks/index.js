@@ -25,8 +25,8 @@ function Navlinks() {
             <nav>
                 <ul className="navbar-ul">
                     <NavLink className="nav-link" to="/" style={{textDecoration: 'none'}}>Home</NavLink>
-                    <NavLink className="nav-link" to="/bars/is/1" style={{textDecoration: 'none'}}>Bars</NavLink>
-                    <NavLink className="nav-link" to="/about" style={{textDecoration: 'none'}}>About</NavLink>
+                    <NavLink className="nav-link" to="/bars/is/1" style={{textDecoration: 'none'}}>Protein Bar</NavLink>
+                    <NavLink className="nav-link" to="/about/is" style={{textDecoration: 'none'}}>About</NavLink>
                     <span onClick={() => showSideBar() } class={ icon + " hamburger"} aria-hidden="true"></span >
                 </ul>
             </nav>

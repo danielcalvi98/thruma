@@ -4,17 +4,16 @@ import './style.css'
 function ImageSlideshow() {
     const[current, setCurrent] = useState(0)
     const BackgroundImg=[
-
+        "/images/zeus.jpg",
         "https://miro.medium.com/max/2400/0*cRxG_Kyg0GscWohm.jpg",
-        "/images/zyzz.png",
-        "https://wallpaperaccess.com/full/3702281.jpg"
+        "https://cdngallery.spicegems.com/02198/20171220_171216_02198_fdQ-hd.jpg",
 
     ];
 
     useEffect(() => {
         const interval = setInterval(() => {
             changeImage();
-        }, 10000);
+        }, 8000);
         return () => clearInterval(interval)
     }, [current])
 

@@ -14,17 +14,17 @@ function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO" target="_blank">
                                 <i class="fab fa-facebook" />
                             </a>        
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO" target="_blank">
                                 <i class="fab fa-twitter" />    
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO" target="_blank">
                                 <i class="fab fa-youtube" /> 
                             </a>
                         </li>
